@@ -23,5 +23,9 @@
     <orderEntry type="library" name="Maven: com.google.guava:guava:14.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.curator:curator-framework:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.curator:curator-recipes:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Maven: org.lucee:httpcomponents-httpcore:4.4.4" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.jchardet:jchardet:1.0" level="project" />
   </component>
 </module>
