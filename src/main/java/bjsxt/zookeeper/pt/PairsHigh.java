@@ -18,8 +18,8 @@ public class PairsHigh {
     static String max_cost = "0.01";
     static String trailing_buy = "0.4";
     static String buy_strategy = "EMASPREAD";
-    static String buy_value = "-1.608";
-    static String sell_value = "6";
+    static String buy_value = "-1.08";
+    static String sell_value = "2";
     static String trailing_profit = "0.3";
     static String market = "BTC";
 
