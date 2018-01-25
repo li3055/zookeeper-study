@@ -16,17 +16,27 @@ public class PairsHigh {
 
     static String[] changeParams = {"max_cost", "trailing_buy", "buy_strategy", "buy_value", "sell_value", "trailing_profit"};
     static String max_cost = "0.01";
-    static String trailing_buy = "0.4";
+    static String trailing_buy = "0.6";
     static String buy_strategy = "EMASPREAD";
-    static String buy_value = "-1.08";
-    static String sell_value = "2";
-    static String trailing_profit = "0.3";
+    static String buy_value = "-1.5";
+    static String sell_value = "1.3";
+    static String trailing_profit = "0.2";
     static String market = "BTC";
+
+//    static String[] changeParams = {"max_cost", "trailing_buy", "buy_strategy", "buy_value", "sell_value","buy_value_limit", "trailing_profit"};
+//    static String max_cost = "0.01";
+//    static String trailing_buy = "0.4";
+//    static String buy_strategy = "EMACROSS";
+//    static String buy_value_limit  = "3.5";
+//    static String buy_value = "1";
+//    static String sell_value = "4";
+//    static String trailing_profit = "0.3";
+//    static String market = "BTC";
 
 
 
     public static void main(String[] args) {
-
+        high ();
     }
 
 
@@ -62,6 +72,9 @@ public class PairsHigh {
                             }
                             if (changeParam.equals("buy_value")) {
                                 listNew.add(lev +market+ "_" + "buy_value = " + buy_value);
+                            }
+                            if(buy_strategy.equals("EMACROSS")){
+                                listNew.add(lev +market+ "_" + "buy_value_limit = " + buy_value);
                             }
                             if (changeParam.equals("sell_value")) {
                                 listNew.add(lev +market+ "_" + "sell_value = " + sell_value);

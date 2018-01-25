@@ -16,11 +16,11 @@ public class PairsLow {
 
     static String[] changeParams = {"max_cost", "trailing_buy", "buy_strategy", "buy_value", "sell_value", "trailing_profit"};
     static String max_cost = "0.008";
-    static String trailing_buy = "0.4";
-    static String buy_strategy = "EMAGAIN";
-    static String buy_value = "-0.5";
-    static String sell_value = "2.25";
-    static String trailing_profit = "0.1";
+    static String trailing_buy = "1";
+    static String buy_strategy = "EMASPREAD";
+    static String buy_value = "-1.1";
+    static String sell_value = "0.5";
+    static String trailing_profit = "0.5";
     static String market = "BTC";
 
 
